@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="no.example.imt3662.SaveNoteActivity"
+            android:label="@string/title_activity_save_note"
+            android:parentActivityName="no.example.imt3662.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="no.example.imt3662.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
